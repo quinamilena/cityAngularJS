@@ -1,0 +1,61 @@
+/* Menu */
+a.cima{
+    padding: 5px;
+    text-decoration: none;
+}
+a.cima:link{
+    color: #F0FFFF;
+}
+a.cima:visited{ 
+    color: #000000;
+}
+a.cima:hover{
+    color: #668B8B;
+    background-color:  #F0FFFF;
+    border-radius: 15px;
+}
+a.cima:active{
+    color: #000000;
+}
+.navegacao{
+    background-color: #A9A9A9;
+}
+.cidades{
+    padding-top: 60px;
+}
+/* Fim Menu */
+
+/* Index Html */
+p{
+    text-align: justify;
+}
+body{
+    background-color: #F8F8FF;
+}
+/* Fim Index Html */
+
+/* Div do Bootstrap */
+.container{
+    padding: 10px;
+}
+.col{
+    padding: 15px;
+}
+/* Fim boot */
+
+/* Html Cidades */
+.rounded{
+    height: 320px !important;
+    width: 700px;
+}
+/* Fim Cidades */
+
+/* Menu Html */
+.mile{
+    height: 143.83px;
+}
+/* FIm MEnu */
+
+/* Select */
+
+/* Fim Select */

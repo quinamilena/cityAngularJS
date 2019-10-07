@@ -1,0 +1,25 @@
+<div menu-nabar></div>
+<div class="container">
+    <div class="row cidades">
+        <h1>Busca Brasil</h1>
+        <select name="nameSelect" id="idSelects" class="form-control pad"
+                ng-options="osEstados.id as osEstados.nome for osEstados in estado | orderBy: 'nome'"
+                ng-model="valorSelecionado"
+                ng-change="changeSelect()">
+            <option value="">-- Selecione um Estado --</option>
+        </select>
+
+        <table class="table table-borderless table-hover table-sm">
+            <thead class="thead-dark">
+                <tr>
+                <th scope="col">Cidades</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-model='nomesCidades' ng-repeat='name in cidade | orderBy: "name"'>
+                    <td>{{name.nome}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
