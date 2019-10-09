@@ -1,0 +1,44 @@
+[
+    {
+        "nomeCidade": "Atenas - Grécia", 
+        "imgCidade": "/App/Images/atenas.jpg", 
+        "altImagem": "cidade de Atenas", 
+        "caminho": "atenas", 
+        "txtBotao": "Informações"
+    },
+    {
+        "nomeCidade": "Dublin - República da Irlanda", 
+        "imgCidade": "/App/Images/Dublin.jpg", 
+        "altImagem": "Cidade de Dublin", 
+        "caminho": "dublin", 
+        "txtBotao": "Informações"
+    },
+    {
+        "nomeCidade": "Nova Iorque - Estados Unidos", 
+        "imgCidade": "/App/Images/novaIorque.jpg", 
+        "altImagem": "Cidade de Nova Iorque", 
+        "caminho": "novaIorque", 
+        "txtBotao": "Informações"
+    },
+    {
+        "nomeCidade": "Roma - Itália", 
+        "imgCidade": "/App/Images/roma.jpg", 
+        "altImagem": "Coliseu de Roma", 
+        "caminho": "roma", 
+        "txtBotao": "Informações"
+    },    
+    {
+        "nomeCidade": "São Paulo - Brasil", 
+        "imgCidade": "/App/Images/sao_paulo.jpg", 
+        "altImagem": "Ponte Estaiada na cidade de São Paulo", 
+        "caminho": "saoPaulo", 
+        "txtBotao": "Informações"
+    },    
+    {
+        "nomeCidade": "Conheça as Cidades do Brasil", 
+        "imgCidade": "/App/Images/fotocapa.png", 
+        "altImagem": "Logo", 
+        "caminho": "buscaCidade", 
+        "txtBotao": "Aqui"
+    }
+]

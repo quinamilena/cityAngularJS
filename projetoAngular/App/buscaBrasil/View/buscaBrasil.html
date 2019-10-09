@@ -2,6 +2,7 @@
 <div class="container">
     <div class="row cidades">
         <h1>Busca Brasil</h1>
+
         <select name="nameSelect" id="idSelects" class="form-control pad"
                 ng-options="osEstados.id as osEstados.nome for osEstados in estado | orderBy: 'nome'"
                 ng-model="valorSelecionado"
@@ -9,17 +10,24 @@
             <option value="">-- Selecione um Estado --</option>
         </select>
 
-        <table class="table table-borderless table-hover table-sm">
-            <thead class="thead-dark">
-                <tr>
-                <th scope="col">Cidades</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr ng-model='nomesCidades' ng-repeat='name in cidade | orderBy: "name"'>
-                    <td>{{name.nome}}</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="jumbotron" ng-show='valorSelecionado'>
+            <div class="container">
+                <input type="text" class="form-control" placeholder="Pesquisar..."
+                    ng-model='aBusca'>
+                <table class="tabela table table-borderless table-hover table-sm">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Cidades {{valorSelecionado}}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-model='nomesCidades' ng-repeat='name in cidade | filter:{nome: aBusca} | orderBy: "name"'>
+                            <td>{{name.nome}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
     </div>
 </div>

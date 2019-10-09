@@ -1,5 +1,4 @@
 var cid = angular.module('city', ['ui.router']);
-
 cid.config(function($stateProvider, $urlRouterProvider){
 
     $stateProvider.state('atenas', {
