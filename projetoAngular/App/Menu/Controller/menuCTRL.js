@@ -3,6 +3,6 @@ cid.controller('menuCTRL', function($scope, infosMenu){
     $scope.asCidades = [];
 
     infosMenu.infoMenu().then(function(response){
-        $scope.asCidades = response.data
+        $scope.asCidades = response.data.info
     })
 });

@@ -17,7 +17,12 @@
             <b>Fundação: </b>{{mgs}}
         </p>
     </div>
-</div>
-<div>
-    <img class="img-fluid rounded mx-auto d-block" ng-src="/App/Images/sao_paulo.jpg" alt="Ponte Estaiada na cidade de São Paulo">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div ng-repeat='itens in imgSaoPaulo' class="carousel-item {{itens.class}}">
+                <img class="img-fluid rounded mx-auto d-block" ng-src="{{itens.img}}" alt="{{itens.alt}}">
+            </div>
+            <caro-passa></caro-passa>
+        </div>
+    </div>
 </div>

@@ -15,7 +15,12 @@
             <b>Fundação: </b>{{mgs}}
         </p>
     </div>
-</div>
-<div>
-    <img class="img-fluid rounded mx-auto d-block" ng-src="/App/Images/roma.jpg" alt="Coliseu de Roma">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div ng-repeat='itens in imgRoma' class="carousel-item {{itens.class}}">
+                <img class="img-fluid rounded mx-auto d-block" ng-src="{{itens.img}}" alt="{{itens.alt}}">
+            </div>
+            <caro-passa></caro-passa>
+        </div>
+    </div>
 </div>

@@ -6,7 +6,7 @@
         <select name="nameSelect" id="idSelects" class="form-control pad"
                 ng-options="osEstados.id as osEstados.nome for osEstados in estado | orderBy: 'nome'"
                 ng-model="valorSelecionado"
-                ng-change="changeSelect()">
+                ng-change="changeSelect()" >
             <option value="">-- Selecione um Estado --</option>
         </select>
 
@@ -17,12 +17,16 @@
                 <table class="tabela table table-borderless table-hover table-sm">
                     <thead class="thead-dark">
                         <tr>
-                            <th scope="col">Cidades {{valorSelecionado}}</th>
+                            <th scope="col"> {{citySelected}}</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr ng-model='nomesCidades' ng-repeat='name in cidade | filter:{nome: aBusca} | orderBy: "name"'>
-                            <td>{{name.nome}}</td>
+                            <td>
+                                <a class="styleButton" ng-href="https://pt.wikipedia.org/wiki/{{name.nome}}" target="_blank">
+                                    {{name.nome}}
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -31,3 +35,8 @@
         </div>
     </div>
 </div>
+<!--     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Amatura_-_bandeira.png/125px-Amatura_-_bandeira.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center; -->

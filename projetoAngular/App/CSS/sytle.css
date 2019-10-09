@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 /* Menu */
 a.cima:visited{ 
     color: #F8F8FF !important;
@@ -5,8 +6,7 @@ a.cima:visited{
 a.cima:hover{
     color: #00FF00 !important;
     font-size: 1.32rem;
-    border-radius: 20px;
-    box-shadow: 5px 5px 18px #00FF00;
+    text-shadow: 5px 5px 18px #00FF00;
 }
 a.cima:active{
     color: #458B00 !important;
@@ -63,11 +63,31 @@ th {
     margin-left: auto;
     margin-right: auto;
 }
+.styleButton{
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-family: Roboto;
+    color: #000000;
+}
+.styleButton:hover{
+    color: #00CD00 !important;
+}
+.styleButton:active{
+    color: #458B00 !important;
+}
 /* FIm tabela */
 
 /* Card */
 .card{
     box-shadow: 5px 5px 18px #000000;
 }
-
 /* Fim Card */
+
+.carousel-control-next-icon {
+    background-color: #00FF00 !important;
+    border-radius: 20px !important;
+}
+.carousel-control-prev-icon {
+    background-color: #00FF00 !important;
+    border-radius: 15px !important;
+}

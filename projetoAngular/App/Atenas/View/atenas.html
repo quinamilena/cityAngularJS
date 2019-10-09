@@ -16,11 +16,14 @@
             <b>População: </b>664.046 (2011) Organização das Nações Unidas;<br>
             <b>Fundação: </b>{{mgs}}
         </p>
-        <!-- <button class="btn btn-outline-dark btn-sm">
-            <a href='http://www.portalconsular.itamaraty.gov.br/seu-destino/grecia'>+ info</a>
-        </button> -->
     </div>
-    <div>
-        <img class="img-fluid rounded mx-auto d-block" ng-src="/App/Images/atenas.jpg" alt="cidade de Atenas">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div ng-repeat='itens in imgAtenas' class="carousel-item {{itens.class}}">
+                <img class="img-fluid rounded mx-auto d-block" ng-src="{{itens.img}}" alt="{{itens.alt}}">
+            </div>
+            <caro-passa></caro-passa>
+        </div>
     </div>
 </div>
