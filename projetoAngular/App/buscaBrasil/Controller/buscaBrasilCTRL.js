@@ -5,7 +5,7 @@ cid.controller('buscaBrasilCTRL',function($scope, buscaCity){
     $scope.citySelected = null; // Nomes dos estados, selecionados;
 
     buscaCity.selectCity().then(function(state){ // O selectCity é o nome do returno da função feita na service, fazer fora de uma função para executar ao abrir a pániga;
-        $scope.estado = state.data; // Passando para o array de estados
+        $scope.estado = state.data; // Passando para o array de estados;
     });
 
     $scope.changeSelect = () => { // O change para o select;

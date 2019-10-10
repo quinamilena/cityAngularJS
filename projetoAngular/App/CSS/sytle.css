@@ -1,4 +1,16 @@
+/* Fontes */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* Fim Fontes */
+
+/* Index Html */
+p{
+    text-align: justify;
+}
+body{
+    background-color: #F8F8FF !important;
+}
+/* Fim Index Html */
+
 /* Menu */
 a.cima:visited{ 
     color: #F8F8FF !important;
@@ -11,43 +23,30 @@ a.cima:hover{
 a.cima:active{
     color: #458B00 !important;
 }
-.cidades{
-    padding-top: 60px;
-}
 /* Fim Menu */
-
-/* Index Html */
-p{
-    text-align: justify;
-}
-body{
-    background-color: #F8F8FF !important;
-}
-/* Fim Index Html */
-
-/* Div do Bootstrap */
-.container{
-    padding: 10px;
-}
-.col{
-    padding: 15px;
-}
-/* Fim boot */
 
 /* Html Cidades */
 .rounded{
     height: 320px !important;
     width: 700px;
 }
+.cidades{
+    padding-top: 80px;
+}
 /* Fim Cidades */
 
-/* Menu Html */
-.mile{
-    height: 143.83px;
+/* Carousel Cidades */
+.carousel-control-next-icon {
+    background-color: #00FF00 !important;
+    border-radius: 20px !important;
 }
-/* FIm MEnu */
+.carousel-control-prev-icon {
+    background-color: #00FF00 !important;
+    border-radius: 15px !important;
+}
+/* Fim Caroucel Cidades */
 
-/* TAbela */
+/* Tabela View BuscaBrasil*/
 .tabela{
     margin-top: 10px !important;
     border-radius: 20px !important;   
@@ -75,19 +74,25 @@ th {
 .styleButton:active{
     color: #458B00 !important;
 }
-/* FIm tabela */
+/* Fim Tabela View BuscaBrasil */
+
+/* Div do Bootstrap Card's*/
+.container{
+    padding: 10px;
+}
+.col{
+    padding: 15px;
+}
+/* Fim Bootstrap Card's*/
 
 /* Card */
 .card{
-    box-shadow: 5px 5px 18px #000000;
+    box-shadow: 12px 12px 12px #000000;
 }
 /* Fim Card */
 
-.carousel-control-next-icon {
-    background-color: #00FF00 !important;
-    border-radius: 20px !important;
+/* Card's do Menu View */
+.mile{
+    height: 143.83px;
 }
-.carousel-control-prev-icon {
-    background-color: #00FF00 !important;
-    border-radius: 15px !important;
-}
+/* Fim Card's do Menu View*/

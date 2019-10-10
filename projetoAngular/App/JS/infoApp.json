@@ -27,14 +27,14 @@
             "altImagem": "Coliseu de Roma", 
             "caminho": "roma", 
             "txtBotao": "Informações"
-        },    
+        },
         {
             "nomeCidade": "São Paulo - Brasil", 
             "imgCidade": "/App/Images/saoPaulo/saoPaulo.jpg", 
             "altImagem": "Ponte Estaiada na cidade de São Paulo", 
             "caminho": "saoPaulo", 
             "txtBotao": "Informações"
-        },    
+        },
         {
             "nomeCidade": "Conheça as Cidades do Brasil", 
             "imgCidade": "/App/Images/fotocapa.png", 
@@ -107,7 +107,7 @@
             "alt": "Cidade de Roma do alto."
         }
     ],
-    
+
     "imgSaoPaulo":[
         {
             "img": "/App/Images/saoPaulo/saoPaulo.jpg",

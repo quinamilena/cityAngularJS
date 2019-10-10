@@ -1,8 +1,8 @@
-cid.controller('novaIorqueCTRL', function($scope, novaIorqueService){
+cid.controller('novaIorqueCTRL', function($scope, serviceTotal){
     $scope.mgs = '9 de julho de 1776.'
     $scope.imgNovaIorque = [];
 
-    novaIorqueService.imgNovaIorque().then(function(response){
+    serviceTotal.serviceTotal().then(function(response){
         $scope.imgNovaIorque = response.data.imgNovaIorque;
     });
 });
