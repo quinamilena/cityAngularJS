@@ -1,4 +1,4 @@
-# Projeto-Angulajs
+# Projeto Cidades
 Feito com Angular Js, com foco no aprendizado.
 
 - Com sete telas, com ui-routes, trabalhando com as routas;
